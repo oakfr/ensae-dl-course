@@ -20,7 +20,7 @@ Important Note: with Lambda Labs and many other GPU providers, you need to *term
 12. Run the diffusion trial program `python3 diffusion-trial.py`. It should generate an image of an astronaut riding a horse.
 13. Install the Remote SSH module in Visual Code
 14. Launch a remote session in Visual Code `ssh ubuntu@<GPU-IP-address>`
-15. Open a ssh session on the GPU machine. Open the repo folder. You can now run code and notebooks remotely via Visual Code.
+15. Open the repo folder. You can now run code and notebooks remotely via Visual Code.
 
 Make sure to always work in your Lambda Labs filesystem (it should appear at the root of your home directory) otherwise all your data will be lost when you kill the instance.
 
