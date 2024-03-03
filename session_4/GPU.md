@@ -14,10 +14,15 @@ Important Note: with Lambda Labs and many other GPU providers, you need to *term
 6. Install the Remote SSH module in Visual Code
 7. Create an SSH key on your local machine (e.g. on Mac/Linux: `ssh-keygen` then `cat ~/.ssh/id_rsa.pub`)
 8. Add the SSH key to your Lambda Labs account
-9. Launch a remote session in Visual Code `ssh ubuntu@<IP-address>`
-10. Verify that NVIDIA drivers are installed: `nvidia-smi` should list the GPU on your machine
-11. Open a ssh session on the GPU machine. Checkout your code there. Make sure to work in your filesystem (it should appear at the root of your home directory).
-12. Run the diffusion trial program `diffusion-trial.py`. It should generate an image of an astronaut riding a horse.
+9. ssh to your GPU machine and create an ssh key there (e.g. on Mac/Linux: `ssh-keygen` then `cat ~/.ssh/id_rsa.pub`)
+10. Add this ssh key to your github profile
+11. Clone the ensae repo
+12. Launch a remote session in Visual Code `ssh ubuntu@<IP-address>`
+13. Verify that NVIDIA drivers are installed: `nvidia-smi` should list the GPU on your machine
+14. Open a ssh session on the GPU machine. Checkout your code there. Make sure to work in your filesystem (it should appear at the root of your home directory).
+15. Run the diffusion trial program `diffusion-trial.py`. It should generate an image of an astronaut riding a horse.
+
+** DO NOT FORGET TO TERMINATE YOUR GPU ONCE YOU ARE DONE WITH YOUR EXPERIMENT! **
 
 ### Other providers:
 - AWS
