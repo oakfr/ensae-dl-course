@@ -16,7 +16,8 @@ Important Note: with Lambda Labs and many other GPU providers, you need to *term
 8. Add the SSH key to your Lambda Labs account
 9. ssh to your GPU machine and create an ssh key there (e.g. on Mac/Linux: `ssh-keygen` then `cat ~/.ssh/id_rsa.pub`)
 10. Add this ssh key to your github profile
-11. Clone the ensae repo
+11. Clone the ensae repo and go to the `session_4` directory
+12. Install the required python packages: `pip3 install -r requirements.txt`
 12. Launch a remote session in Visual Code `ssh ubuntu@<IP-address>`
 13. Verify that NVIDIA drivers are installed: `nvidia-smi` should list the GPU on your machine
 14. Open a ssh session on the GPU machine. Checkout your code there. Make sure to work in your filesystem (it should appear at the root of your home directory).
