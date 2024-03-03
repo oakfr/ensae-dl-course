@@ -16,6 +16,8 @@ Important Note: with Lambda Labs and many other GPU providers, you need to *term
 8. Add the SSH key to your Lambda Labs account
 9. Launch a remote session in Visual Code `ssh ubuntu@<IP-address>`
 10. Verify that NVIDIA drivers are installed: `nvidia-smi` should list the GPU on your machine
+11. Open a ssh session on the GPU machine. Checkout your code there. Make sure to work in your filesystem (it should appear at the root of your home directory).
+12. Run the diffusion trial program `diffusion-trial.py`. It should generate an image of an astronaut riding a horse.
 
 ### Other providers:
 - AWS
