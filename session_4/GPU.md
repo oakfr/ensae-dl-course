@@ -21,6 +21,7 @@ Important Note: with Lambda Labs and many other GPU providers, you need to *term
 13. Install the Remote SSH module in Visual Code
 14. Launch a remote session in Visual Code `ssh ubuntu@<GPU-IP-address>`
 15. Open the repo folder. You can now run code and notebooks remotely via Visual Code.
+16. For step 15, you will likely need to install a jupyter/python environment on your new GPU machine. You can do this remotely via Visual Code by following its instructions.
 
 Make sure to always work in your Lambda Labs filesystem (it should appear at the root of your home directory) otherwise all your data will be lost when you kill the instance.
 
