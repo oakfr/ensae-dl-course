@@ -54,7 +54,7 @@ def get_batch(split):
     y = torch.stack([data[i+1:i+block_size+1] for i in ix]).to(device)
     return x, y
 
-@torch.no_grad
+@torch.no_grad()
 def estimate_loss():
     out = {}
     model.eval()
@@ -116,7 +116,7 @@ class GPT(nn.Module):
     
 model = GPT()
 m = model.to(device)
-print(m.parameters())
+print(sum([p.numel() for p in m.parameters()]))
 optimizer = torch.optim.AdamW(m.parameters(), lr=learning_rate)
 
 # training loop
