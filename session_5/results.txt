@@ -1,0 +1,88 @@
+Files already downloaded and verified
+Files already downloaded and verified
+Files already downloaded and verified
+plain-18: 11529602
+Epoch [1/10], Loss: 2.0826
+Accuracy of the network on the 5000 validation images: 38.42 %
+Epoch [2/10], Loss: 2.0478
+Accuracy of the network on the 5000 validation images: 52.28 %
+Epoch [3/10], Loss: 2.2165
+Accuracy of the network on the 5000 validation images: 57.84 %
+Epoch [4/10], Loss: 1.7346
+Accuracy of the network on the 5000 validation images: 63.9 %
+Epoch [5/10], Loss: 1.9979
+Accuracy of the network on the 5000 validation images: 68.48 %
+Epoch [6/10], Loss: 1.6131
+Accuracy of the network on the 5000 validation images: 71.78 %
+Epoch [7/10], Loss: 1.9586
+Accuracy of the network on the 5000 validation images: 73.56 %
+Epoch [8/10], Loss: 1.7125
+Accuracy of the network on the 5000 validation images: 74.98 %
+Epoch [9/10], Loss: 1.7009
+Accuracy of the network on the 5000 validation images: 76.52 %
+Epoch [10/10], Loss: 1.7376
+Accuracy of the network on the 5000 validation images: 78.08 %
+plain-34: 21641474
+Epoch [1/10], Loss: 2.2692
+Accuracy of the network on the 5000 validation images: 30.54 %
+Epoch [2/10], Loss: 2.4097
+Accuracy of the network on the 5000 validation images: 35.86 %
+Epoch [3/10], Loss: 2.0687
+Accuracy of the network on the 5000 validation images: 38.3 %
+Epoch [4/10], Loss: 2.1650
+Accuracy of the network on the 5000 validation images: 38.68 %
+Epoch [5/10], Loss: 2.0781
+Accuracy of the network on the 5000 validation images: 40.8 %
+Epoch [6/10], Loss: 2.1367
+Accuracy of the network on the 5000 validation images: 42.02 %
+Epoch [7/10], Loss: 2.2064
+Accuracy of the network on the 5000 validation images: 47.34 %
+Epoch [8/10], Loss: 2.1047
+Accuracy of the network on the 5000 validation images: 48.06 %
+Epoch [9/10], Loss: 2.1985
+Accuracy of the network on the 5000 validation images: 51.24 %
+Epoch [10/10], Loss: 1.9305
+Accuracy of the network on the 5000 validation images: 52.12 %
+resnet-34: 21289802
+Epoch [1/10], Loss: 1.3359
+Accuracy of the network on the 5000 validation images: 58.08 %
+Epoch [2/10], Loss: 0.3205
+Accuracy of the network on the 5000 validation images: 73.16 %
+Epoch [3/10], Loss: 0.2715
+Accuracy of the network on the 5000 validation images: 77.9 %
+Epoch [4/10], Loss: 0.1608
+Accuracy of the network on the 5000 validation images: 80.74 %
+Epoch [5/10], Loss: 0.7896
+Accuracy of the network on the 5000 validation images: 80.62 %
+Epoch [6/10], Loss: 0.2919
+Accuracy of the network on the 5000 validation images: 81.7 %
+Epoch [7/10], Loss: 0.3350
+Accuracy of the network on the 5000 validation images: 83.3 %
+Epoch [8/10], Loss: 0.9042
+Accuracy of the network on the 5000 validation images: 83.16 %
+Epoch [9/10], Loss: 1.2170
+Accuracy of the network on the 5000 validation images: 83.28 %
+Epoch [10/10], Loss: 1.5383
+Accuracy of the network on the 5000 validation images: 82.68 %
+resnet-50: 23528522
+Epoch [1/10], Loss: 1.5987
+Accuracy of the network on the 5000 validation images: 44.68 %
+Epoch [2/10], Loss: 2.4236
+Accuracy of the network on the 5000 validation images: 60.42 %
+Epoch [3/10], Loss: 3.0655
+Accuracy of the network on the 5000 validation images: 70.56 %
+Epoch [4/10], Loss: 0.4668
+Accuracy of the network on the 5000 validation images: 74.48 %
+Epoch [5/10], Loss: 0.6419
+Accuracy of the network on the 5000 validation images: 78.18 %
+Epoch [6/10], Loss: 1.1191
+Accuracy of the network on the 5000 validation images: 79.44 %
+Epoch [7/10], Loss: 0.8387
+Accuracy of the network on the 5000 validation images: 79.82 %
+Epoch [8/10], Loss: 0.2785
+Accuracy of the network on the 5000 validation images: 81.24 %
+Epoch [9/10], Loss: 0.1853
+Accuracy of the network on the 5000 validation images: 80.64 %
+Epoch [10/10], Loss: 0.3413
+Accuracy of the network on the 5000 validation images: 80.84 %
+
